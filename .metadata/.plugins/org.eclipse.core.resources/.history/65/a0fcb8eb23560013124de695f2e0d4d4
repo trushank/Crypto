@@ -1,0 +1,34 @@
+
+public class QProgram {
+
+	public static void main(String[] args) {
+		double deno=365;
+		double ans=1;
+		System.out.print("1-");
+		for(double i=364;i>350;i--){
+			ans=ans*(i/deno);
+			System.out.print(ans);
+			//System.out.print("("+i+"/"+deno+")*\n");
+		}
+		System.out.println("\n="+ans);
+	}
+	
+	
+	
+//public static void main( String args[]){
+//		
+//		double m = 365;
+//		double q = 15;
+//		double res = 1;
+//	
+//	for(double i =m-1; i >= m-q+1 ; i--){
+//		
+//		res *=((m-i)/m);
+//	}
+//	
+//	
+//	System.out.print(res);
+//	}
+
+
+}
